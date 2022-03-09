@@ -4,4 +4,6 @@ const userRoutes = require("./userController")
 
 router.use("/users",userRoutes)
 
+//TODO: add blog routes
+
 module.exports = router;
