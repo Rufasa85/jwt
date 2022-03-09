@@ -1,7 +1,12 @@
 const User = require("./User")
+const Blog = require("./Blog")
 
-//TODO: add blog model
+
+
+User.hasMany(Blog);
+Blog.belongsTo(User);
 
 module.exports = {
-    User
+    Blog,
+    User,
 }
